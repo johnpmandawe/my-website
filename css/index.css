@@ -135,9 +135,6 @@ li.active-colored {
   justify-content: center;
   background-color: rgb(58, 211, 109);
 }
-.footer span {
-  font-weight: 600;
-}
 .socials {
   width: 80px;
   align-items: center;
