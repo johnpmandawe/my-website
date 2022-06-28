@@ -235,4 +235,7 @@ label.green {
     width: 35px;
     height: 35px;
   }
+  .footer span {
+    font-size: 3.5vw;
+  }
 }
