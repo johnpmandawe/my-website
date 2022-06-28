@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <div class="nav flex">
+      <div class="logo_wrapper">
+        <a href="index.html"><h1>iDev</h1></a>
+      </div>
+      <input type="checkbox" id="checkbtn" />
+      <label for="checkbtn" class="label">
+        <div class="line one"></div>
+        <div class="line two"></div>
+        <div class="line three"></div>
+      </label>
+      <ul class="menu flex">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <div id="home" class="flex">
+        <span class="down">Eat.</span>
+        <span class="up">Code.</span>
+        <span class="right">Sleep.</span>
+        <span class="left">Repeat.</span>
+      </div>
+      <div id="about" class="flex">
+        <p>
+          iDev is a custom website which I developed to challenge myself as well
+          as to sum up all the things I've learned from studying HTML, CSS, and
+          JavaScript. This project is still underdevelopment and I'm open for
+          suggestions and tips for my website's improvement and for me to grow
+          as a frontend developer.
+        </p>
+      </div>
+      <div id="portfolio" class="flex">
+        <p id="project_title"></p>
+        <img src="images/previous.png" class="prev sld_btn" alt="" />
+        <img src="images/next.png" class="next sld_btn" alt="" />
+      </div>
+      <div id="services" class="flex">
+        <div class="s1 service">Website Development</div>
+        <div class="s2 service">Web Application Development</div>
+        <div class="s3 service">Program Consultation</div>
+      </div>
+    </div>
+    <div class="flex footer">
+      <div class="footer_text flex">
+        <span>&copy; iDev 2022. All rights reserved.</span>
+      </div>
+      <div class="socials flex">
+        <a href="https://www.facebook.com/johnpaul.mandawe.92"
+          ><img src="images/facebook.png" class="footer_logo" alt=""
+        /></a>
+        <a href="https://github.com/johnpmandawe/"
+          ><img src="images/github-logo.png" class="footer_logo" alt=""
+        /></a>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
